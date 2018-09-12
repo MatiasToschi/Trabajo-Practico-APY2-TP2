@@ -14,8 +14,6 @@ Trabajo practico Nro 2º de algoritmos y programacion 2 UNTREF 2018 [Batalla Rom
 
 ## Decisiones de diseño
 
-## Lista de archivos [Los archivos no mencionados forman parte de Netbeans]
-
 #### Juego: Clase concreta, en la cual se aplica patrón singleton, donde se tratan todas las excepciones y contiene el juego en sí mismo. Se utiliza static main para iniciar el menú  principal de juego. Su función es de establecer un puente entre la lógica y las interfaces.
 #### Batalla: Clase concreta, en la cual se aplica patrón singleton, que contiene a los jugadores y se encarga de definir quién ataca y quien defiende.
 #### Lector: Clase concreta, en la cual se aplica patrón singleton, contiene a la clase lectorDeArchivo, es la clase encargada, por medio de su metodo principal, el generar Legiones a parti de lo entregado(leido) por el lectorDeArchivos
@@ -44,7 +42,7 @@ Legión: Es la clase Compuesta. También es una clase concreta que  hereda e imp
 
 #### TipoDeGuerrero: Enum que limita la creación de objetos al Component (hojas del Composite y la clase Composite (Legión))
 
-# Clases del paquete interfaces:
+### Clases del paquete interfaces:
 Son clases que utilizan ciertas librerias para poder mostrar en pantallas formularios java.
 Los pocos metodos que estas poseen son clickJButton que haran ejecutar metodos de la clase Juego.
 
